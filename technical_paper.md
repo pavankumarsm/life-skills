@@ -17,7 +17,7 @@ This is the first step in the rendering process. The browser received the HTML d
 The browser takes the css code asscoiate with the page and create a separate tree like structure known as CSS object model(CSSOM). it contains all the rules and styles of css
 
 ### 3) Constructing the Rendering Tree 
-combines DOM and CSSOM create the rendering tree. it representing the elements on the page and styles and also involves only visible elemnets.
+Combines DOM and CSSOM create the rendering tree. it representing the elements on the page and styles and also involves only visible elemnets.
 
   example->  p { color: blue; }
   span { display: none; }  //span remove from rendering tree
